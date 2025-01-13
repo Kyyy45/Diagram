@@ -5,15 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="YM_60d5EjYrt5BhQnXYf-31" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="300" y="443" width="240" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="YM_60d5EjYrt5BhQnXYf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YM_60d5EjYrt5BhQnXYf-1" target="YM_60d5EjYrt5BhQnXYf-3" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YM_60d5EjYrt5BhQnXYf-7" value="Mengirimkan Requesr" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="YM_60d5EjYrt5BhQnXYf-6" vertex="1" connectable="0">
-          <mxGeometry x="-0.1037" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+          <mxGeometry x="308" y="443" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="YM_60d5EjYrt5BhQnXYf-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="95" y="623" width="120" height="60" as="geometry" />
@@ -77,14 +69,6 @@
         <mxCell id="YM_60d5EjYrt5BhQnXYf-36" value="Web Component" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="398" y="700" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="-WHmL0CJbntDUcj06zTi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-WHmL0CJbntDUcj06zTi-1" target="YM_60d5EjYrt5BhQnXYf-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-WHmL0CJbntDUcj06zTi-15" value="Schema Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-WHmL0CJbntDUcj06zTi-14">
-          <mxGeometry x="-0.2431" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-WHmL0CJbntDUcj06zTi-1" value="Endpoint API (NextJs Endpoint)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="604" y="533" width="120" height="60" as="geometry" />
         </mxCell>
@@ -125,6 +109,28 @@
         <mxCell id="-WHmL0CJbntDUcj06zTi-20" value="Manage and Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-WHmL0CJbntDUcj06zTi-19">
           <mxGeometry x="0.2005" y="2" relative="1" as="geometry">
             <mxPoint x="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WHmL0CJbntDUcj06zTi-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-WHmL0CJbntDUcj06zTi-1" target="YM_60d5EjYrt5BhQnXYf-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="470" as="sourcePoint" />
+            <mxPoint x="690" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WHmL0CJbntDUcj06zTi-22" value="Schema Model and Data Model" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-WHmL0CJbntDUcj06zTi-21">
+          <mxGeometry x="-0.0677" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WHmL0CJbntDUcj06zTi-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="YM_60d5EjYrt5BhQnXYf-1" target="YM_60d5EjYrt5BhQnXYf-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="590" as="sourcePoint" />
+            <mxPoint x="160" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-WHmL0CJbntDUcj06zTi-24" value="Req / Response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-WHmL0CJbntDUcj06zTi-23">
+          <mxGeometry y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
